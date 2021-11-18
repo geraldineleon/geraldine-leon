@@ -3,7 +3,7 @@
   "orientation": "portrait",
   "background_color": "#f1ece7",
   "display": "standalone",
-  "scope": "./",
+  "scope": "./geraldine-leon",
   "start_url": "./?utm_source=web_app_manifest",
   "name": "DiscArtist - Discografias",
   "short_name": "DiscArtist",
