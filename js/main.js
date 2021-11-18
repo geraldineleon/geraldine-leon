@@ -3,7 +3,7 @@ let newServiceWorker;
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function () {
     navigator.serviceWorker
-      .register("./service-worker.js")
+      .register("/service-worker.js")
       .then((registerEvent) => {
         registerEvent.addEventListener("updatefound", () => {
           newServiceWorker = registerEvent.installing;
